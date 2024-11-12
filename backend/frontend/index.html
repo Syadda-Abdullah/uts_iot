@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Data Dashboard by Syadda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Data Dashboard by Syadda Abdullah</h1>
+            <p>Visualisasi Data Cuaca Terbaru</p>
+        </header>
+        
+        <section class="data-section">
+            <div class="data-box">
+                <h2>Temperatur Maksimum</h2>
+                <p id="suhuMax">-</p>
+            </div>
+            <div class="data-box">
+                <h2>Temperatur Minimum</h2>
+                <p id="suhuMin">-</p>
+            </div>
+            <div class="data-box">
+                <h2>Temperatur Rata-rata</h2>
+                <p id="suhuRata">-</p>
+            </div>
+        </section>
+
+        <section class="details-section">
+            <h2>Detail Suhu dan Kelembapan Maksimum</h2>
+            <ul id="suhuMaxHumidMaxList" class="details-list"></ul>
+            
+            <h2>Bulan dengan Suhu Maksimum</h2>
+            <ul id="monthYearMaxList" class="details-list"></ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
